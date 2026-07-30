@@ -6,7 +6,7 @@ from telegram.ext import (
 )
 
 # ===================== CONFIGURATION =====================
-BOT_TOKEN = "8972746231:AAFIvMiCxRM8zMFVvFBoBO_RvyMxqTH_xK4"
+BOT_TOKEN = "8202106034:AAHyqQmiTx5G0pW4qlD9Q9LV5qnPMLmUsfk
 ADMIN_ID = 5603706623
 
 # आपका असली VIP ग्रुप लिंक
