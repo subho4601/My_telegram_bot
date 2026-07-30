@@ -1,4 +1,4 @@
-import_os logging
+import os logging
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import (
     Application, CommandHandler, CallbackQueryHandler, 
@@ -6,7 +6,8 @@ from telegram.ext import (
 )
 
 # ===================== CONFIGURATION =====================
-"BOT_TOKEN" 8202106034:AAHyqQmiTx5G0pW4qlD9Q9LV5qnPMLmUsfk
+BOT_TOKEN = os.environ.get("BOT_TOKEN")
+
 
 ADMIN_ID = 5603706623
 
